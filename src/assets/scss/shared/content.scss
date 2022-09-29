@@ -1,0 +1,59 @@
+.content {
+    padding: 0 40px 40px;
+    @media(min-width: 768px) {
+        padding: 40px 100px;
+    }
+    h2 {
+        font-family: 'Aref Ruqaa Ink';
+    }
+}
+#classes-page {
+    h2 {
+        margin-top: 0;
+        font-size: 26px;
+        @media(min-width: 768px) {
+            margin-top: 70px;
+            font-size: 30px;
+        }
+    }
+    p {
+        font-size: 18px !important;
+        margin: 0 0 20px;
+    }
+    h2, p, a {
+        margin-left: 20px;
+    }  
+    h3 {
+        margin: 0;
+    }
+    a {
+        font-family: "Fuzzy Bubbles", cursive;
+        padding: 15px 30px;
+        border-radius: 30px;
+        line-height: 1;
+        border: 2px solid;
+        font-weight: bold;
+        font-size: 16px;
+        color: white;
+        background: #b50e0e;
+        transition: all linear .3s;
+        &:hover, &:focus {
+            background: white;
+            color: #b50e0e;
+        }
+        &.odd {
+            background: #6db235;
+            &:hover, &:focus {
+                background: white;
+                color: #6db235;
+            }
+        }
+    }
+    .image {
+        margin-top: 100px;
+        margin-bottom: 0;;
+    }
+    table {
+        margin-bottom: 40px;
+    }
+}

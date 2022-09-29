@@ -1,0 +1,233 @@
+section#top-half {
+    h2, h4 {
+        text-align: center !important;
+        float: none;
+    }
+    .social-links-wrapper {
+        .social-links {
+            position: relative;
+            top: 0;
+            margin: 20px auto 0;
+        }
+    }
+}
+section#bottom-half ul li, section#top-half ul:not(.social-links) li {
+    display: block;
+    width: 100%;
+    text-align:center;
+}
+section#bottom-half {
+    text-align: center;
+    background: #f2f2f2;
+    padding: 20px 0;
+    font-family:  'Lato';
+    font-size: 16px;
+    a {
+        text-decoration: none;
+        font-weight: 400;
+        color: #b50d0e;
+        font-family: 'Aref Ruqaa Ink';
+    }
+    p {
+        margin: 0 0 15px;
+        font-size: 16px;
+        display: block;
+        text-align: center;
+    }
+    ul {
+        list-style: none;
+        margin: 0 auto;
+        padding: 0;
+        display: inline-block;
+        width: auto;
+        li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+    }
+}
+section#top-half {
+    padding: 20px 40px;
+    background: #e1e1e1;
+    svg.svg-inline--fa.fa-heart {
+        color: #6db233;
+        font-size: 120px;
+        margin: 0 auto;
+        display: block;
+    }
+    .social-links-wrapper {
+        position: relative;
+        top: 20px;
+        .social-links {
+            position: absolute;
+            top: 40px;
+            width: 200px;
+            left: 0;
+        }
+    }
+    h2 {
+        font-family: "Fuzzy Bubbles", cursive;
+        text-align: left;
+        font-size: 22px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    h4 {
+        margin-top: 0;
+        font-family: 'Fuzzy Bubbles';
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        li a {
+            text-decoration: none;
+            font-size: 15px;
+            margin-bottom: 12px;
+            display: block;
+            color: #b50d0e;
+            font-weight: 600;
+            font-family: 'Aref Ruqaa Ink';
+        }
+    }
+}
+.email-signup {
+    * { 
+        position: relative;
+    }
+    text-align: center;
+    form {
+        width: 100% !important;
+        float: none;
+        margin: 0 auto;
+        .form-group input {
+            background: white;
+            height: 25px;
+        }
+    }
+    button {
+        background: #b40e0c;
+        border: none;
+        height: 45px;
+        font-size: 18px;
+        color: white;
+        font-family: "Fuzzy Bubbles", cursive;
+    }
+    h2 {
+        margin-bottom: 30px;
+        color: #121212;
+        text-transform: uppercase;
+    }
+    h3 {
+        font-family: 'Lato';
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: 2.5px;
+        margin-top: 0;
+    }
+    button {
+        width: 130px;
+        border-radius: 0 30px 30px 0;
+        height: 45px !important;
+        float:left;
+    }
+    form {
+        width: 500px;
+        float: left;
+    }
+    .form-group {
+        width: 100%;
+        max-width: 100%;
+        input {
+          height: 25px;
+          max-width: 350px;
+          width: calc(100% - 170px);
+          padding: 10px 20px;
+          font-size: 16px;
+          margin-bottom: 20px;
+          border: 1px solid #7b7b7b;
+          border-radius: 30px;
+          border-radius: 30px 0 0 30px;
+          background: #e0edf4;
+          height: 30px;
+          border: none;
+          float:left;
+          min-width: 100px;
+        }
+    }
+}
+h4 {
+    margin-top: 0;
+    font-family: 'Fuzzy Bubbles';
+    font-size: 22px;
+
+    margin-bottom: 0;
+}
+  .email-signup form .form-group input {
+    width: calc(100% - 170px);
+  }  
+  section#top-half {
+    h2 {
+      text-align: center;
+    }
+    h4 {
+      text-align: center;
+      width: 100%;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+    .social-links-wrapper {
+      margin: 0 auto;
+      display: inline-block;
+      text-align: center;
+      width: 100%;
+      .social-links {
+        position: relative;
+        top: 0;
+        float: none;
+        margin: 0 auto;
+        display: inline-block;
+      }
+    }
+  }
+  
+  section#private-classes {
+    padding: 30px;
+  }
+  
+  #become-a-teacher-section, #private-classes {
+    padding: 30px;
+    p {
+      padding: 0;
+    }  
+  }
+  
+  section#class-packages-section {
+    padding: 40px;
+    h3 {
+      margin: 0;
+    } 
+  }
+  .image {
+    margin: 0;
+    img {
+      margin-bottom: 0 !important;
+    }
+  }
+
+
+section#footer {
+    width: 100vw;
+    overflow-x: hidden;
+    padding: 0;
+    ul {
+        li {
+            display: block !important;
+        }
+    }
+}
+

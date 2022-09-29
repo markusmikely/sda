@@ -1,0 +1,155 @@
+#hero-section {
+    text-align: center;
+    h1 {
+        font-size: 40px;
+        line-height: 1.4;
+        text-align: center;
+        margin-bottom: 0;;
+        span {
+            display: block;
+            color: #cc0404;
+            font-size: 20px;
+            font-family: 'Aref Ruqaa Ink';
+        }
+    } 
+    p {
+        font-size: 24px;
+        margin-bottom: 0;
+        font-family: "Aref Ruqaa Ink";
+        font-size: 20px !important;
+        line-height: 1.4;
+        padding: 0 30px;
+        
+    }   
+    .actions {
+        margin-top: 50px;
+        a {
+            font-weight: 600;
+            font-size: 16px;
+            border-radius: 30px;
+            padding: 10px 30px;
+            font-family: "Fuzzy Bubbles", cursive;
+            letter-spacing: 2.5px;
+        }
+    }
+}
+#about-section {
+    p {
+        font-size: 22px;
+    }
+}
+#timetable-section, #about-section {
+    h2{
+        font-size: 26px;
+        font-family: "Fuzzy Bubbles", cursive;
+        text-align: center;
+        width: 100%;
+    }
+    * {
+        font-size: 18px;
+        line-height: 1.6;
+        font-family: 'Aref Ruqaa Ink';
+    }
+}
+#class-packages-section {
+    padding: 50px 90px;
+    h3 {
+        font-size: 26px;
+        font-family: "Fuzzy Bubbles", cursive;
+        margin-top: 80px;
+        margin-bottom: 0;
+    }
+    p {
+        font-family: 'Aref Ruqaa Ink';
+        font-size: 20px !important;
+        line-height: 1.6;
+        margin-top: 10px;
+    }
+    a {
+        font-family: "Fuzzy Bubbles", cursive;
+        padding: 15px 30px;
+        border-radius: 30px;
+        line-height: 1;
+        border: 2px solid;
+        font-weight: bold;
+        font-size: 16px;
+        color: white;
+        background: #b50e0e;
+        transition: all linear .3s;
+        margin-bottom: 40px;
+        background: #b50e0e;
+        @media(min-width: 768px) {
+            margin-bottom: 0px;
+            background: #6db235;
+        }
+        &:hover, &:focus {
+            background: white;
+            color: #b50e0e;
+        }
+        &.odd {
+            margin-bottom: 40px;
+            background: #b50e0e;
+            @media(min-width: 768px) {
+                margin-bottom: 0px;
+                background: #6db235;
+            }
+            &:hover, &:focus {
+                background: white;
+                color: #6db235;
+            }
+        }
+
+    }
+    
+}
+#become-a-teacher-section, #private-classes {
+    padding: 40px 30px 40px;
+    text-align: center;
+    @media(min-width: 768px) {
+        padding: 80px 100px 0px;
+    }
+    * {
+        color:#fff !important;
+    }
+    h2 {
+        font-family: "Fuzzy Bubbles", cursive;
+        font-size: 40px;
+        line-height: 1.6;
+        text-align: center;
+    }
+    h4 {
+        font-size: 22px;
+        font-family: 'Aref Ruqaa Ink';
+    }
+    p {
+        font-size: 28px;
+        line-height: 1.6;
+        text-align: center;
+        font-family: Lato;
+        padding: 0 50px;
+
+    }
+    a {
+        border: 2px solid #FFF;
+        font-size: 16px;
+        padding: 10px 30px;
+        border-radius: 30px;
+        font-family: "Fuzzy Bubbles", cursive;
+        margin: 30px auto;
+        background: transparent;
+        margin: 30px auto 0;
+        display: inline-block;
+    }
+    ul {
+        width: 100%;
+        max-width: 530px;
+        text-align: left;
+        margin: 40px auto;
+        font-family: Lato;
+        font-weight: 400;
+        li {
+            margin-bottom: 10px;
+        }
+    }
+}
+#private-classes { padding-bottom: 80px; }

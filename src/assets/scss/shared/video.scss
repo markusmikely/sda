@@ -1,0 +1,48 @@
+.video-wrapper {
+    position: relative;
+    height: calc(100vh - 90px);
+    &:not(.page-header) {
+        min-height: 500px;
+    }
+    video {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+        width: 100vw;
+        height: 100%;
+        object-fit: cover;
+    }
+    .video-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgb(0 0 0 / 60%);
+        z-index: 1;
+    }
+    .video-content {
+        position: relative;
+        z-index: 9999;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        h1 {
+            font-family: "Fuzzy Bubbles", cursive;
+        }
+        a {
+            color: white;
+            border-color: white;
+            margin: 10px 10px;
+        }
+    }
+    &.page-header {
+        height: 200px;
+    }
+}

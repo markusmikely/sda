@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Fuzzy+Bubbles:wght@700&family=Lato:wght@100;300;400&family=Montserrat:wght@300&family=Open+Sans&display=swap');
+
+@import url('/src/assets/scss/typography.scss');
+@import url('/src/assets/scss/responsive.scss');
+
+
+// Layout
+@import url('/src/assets/scss/layout/header.scss');
+@import url('/src/assets/scss/layout/footer.scss');
+
+// Pages
+@import url('/src/assets/scss/pages/homepage.scss');
+@import url('/src/assets/scss/pages/about.scss');
+@import url('/src/assets/scss/pages/contact.scss');
+@import url('/src/assets/scss/pages/faqs.scss');
+
+// Forms
+@import url('/src/assets/scss/forms/contact.scss');
+
+// Shared
+@import url('/src/assets/scss/shared/video.scss');
+@import url('/src/assets/scss/shared/content.scss');
+@import url('/src/assets/scss/shared/image.scss');

@@ -1,0 +1,74 @@
+* {
+    line-height: 1.4;
+    font-family: "Aref Ruqaa Ink", serif;
+    font-size: 18px;
+}
+tbody tr th.css-1ex1afd-MuiTableCell-root, td.MuiTableCell-root  {
+    line-height: 1.6;
+    font-family: "Aref Ruqaa Ink", serif;
+    font-size: 18px;
+}
+h1 {
+    font-family: "Fuzzy Bubbles", cursive;
+    font-size: 40px;
+}
+h2 {
+    font-size: 36px;
+}
+h3 {
+    font-size: 32px; 
+}
+h4 {
+    font-size: 28px;
+}
+h5 {
+    font-size: 26px;
+}
+h6 {
+    font-size: 24px;
+}
+p {
+    font-family: "Aref Ruqaa Ink", serif;
+    font-size: 17px !important;
+}
+a {
+    color: #b50d0e;
+    text-decoration: none;
+}
+ul {
+    li {
+        margin-bottom: 15px;
+        color: #121212;
+    }
+}
+.MuiAccordion-root {
+    border: none !important;
+    .MuiAccordionDetails-root {
+        padding: 8px 16px 16px;
+        padding: 16px;
+        border-top: none;
+        p {
+            text-align: left !important;
+            margin: 0 !important;
+        }
+    }
+    h3 {
+        margin: 0;
+        font-family: "Aref Ruqaa Ink", serif;
+    }
+    p {
+        font-family: "Aref Ruqaa Ink", serif;
+        font-size: 17px !important;
+    }
+    .MuiAccordionSummary-root {
+        background-color: transparent;
+    }
+    svg {
+        color: #cc0404;
+    }
+    .MuiPaper-root {
+        margin-bottom: 20px;
+        border-bottom: none;
+        margin-bottom: 20px;
+    }
+}
